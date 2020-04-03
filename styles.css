@@ -397,11 +397,20 @@ small.success {
     }
 
     .logo img {
-        max-width:26%;
+        max-width: 26%;
     }
 
     .content {
         text-align: center;
+    }
+
+    .fullheight,
+    .under-container {
+        height: auto;
+    }
+
+    .under-container {
+        margin: 40px 0 20px 0;
     }
 
     h1 {
