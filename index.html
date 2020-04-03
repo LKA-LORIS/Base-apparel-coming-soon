@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="styles.css">
+  <title>Frontend Mentor | Base Apparel coming soon page</title>
+</head>
+
+<body>
+
+  <div class="loader">
+    <div class="loader-content">
+      <div class="loader-logo">
+        <img src="./images/logo.svg" alt="logo base apparel">
+      </div>
+      <div class="loader-dots">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </div>
+
+  <div id="container">
+    <!-- SECTION LEFT-->
+    <section class="section-left">
+
+      <div class="inner-container">
+        <a class="logo" href="#">
+          <img src="./images/logo.svg" alt="logo base apparel">
+        </a>
+      </div>
+
+      <img class="bg-mobile" src="./images/hero-mobile.jpg" alt="background women mobile">
+
+      <div class="inner-container fullheight">
+        <div class="under-container">
+          <div class="content">
+            <h1>
+              <span>we're</span></br>
+              <span class="bold">coming</span></br>
+              <span class="bold">soon</span>
+            </h1>
+            <p>Hello fellow shoppers! We're currently building our new fashion store. Add your email below to stay
+              up-to-date with announcements and our launch deals.</p>
+              <form id="form" name="formulaire" autocomplete="off">
+                <input id="email" type="email" placeholder="Email Address">
+                <img class="icon-error" src="./images/icon-error.svg" alt="icon error">
+                <button>
+                  <img src="./images/icon-arrow.svg" alt="icon arrow">
+                </button>
+              </form>
+              <small id="info-text"></small>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- SECTION RIGHT-->
+    <section class="section-right">
+      <div class="background-women"></div>
+    </section>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
