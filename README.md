@@ -36,4 +36,4 @@ There are multiple places you can share your solution:
 
 ## Deploying your project
 
-🚀 My project is deployed [here](https://zeit.co/lka-loris/base-apparel-coming-soon/epwp5cfh0)
+🚀 My project is deployed [here](https://base-apparel-coming-soon-epwp5cfh0.now.sh/)
