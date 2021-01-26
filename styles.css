@@ -112,6 +112,8 @@
 }
 
 img {
+    display:block;
+    height:auto;
     max-width: 100%;
 }
 
@@ -230,6 +232,11 @@ form {
     position: relative;
     display: flex;
     margin-bottom: 10px;
+}
+
+form label {
+    position:relative;
+    width:100%;
 }
 
 form input {
