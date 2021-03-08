@@ -338,6 +338,7 @@ button:hover:before {
 }
 
 small {
+    display:block;
     font-size: 13px;
     color: #f96464;
     margin-left: 30px;
