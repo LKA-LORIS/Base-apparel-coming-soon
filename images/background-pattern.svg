@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="800px" viewBox="0 0 1440 800" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 7</title>
+    <defs>
+        <linearGradient x1="0%" y1="34.5679012%" x2="57.6546759%" y2="65.4320988%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#FFF4F4" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="95.8608194%" y1="2.47635292%" x2="10.9128639%" y2="101.718484%" id="linearGradient-2">
+            <stop stop-color="#FFF1F1" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="95.9367985%" y1="2.47635292%" x2="10.848107%" y2="101.718484%" id="linearGradient-3">
+            <stop stop-color="#FFF1F1" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Designs" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop" transform="translate(0.000000, 10.000000)">
+            <g id="Group-7" transform="translate(0.000000, -10.000000)">
+                <rect id="Rectangle" fill="url(#linearGradient-1)" x="0" y="0" width="1440" height="800"></rect>
+                <g id="Group-9">
+                    <path d="M0,800 C48.5570541,615.008524 167.04814,498.429377 355.473258,450.262558 C543.898376,402.09574 688.073957,252.008221 788,0 L788,800 L0,800 Z" id="Path-3" fill="url(#linearGradient-2)" transform="translate(394.000000, 400.000000) scale(-1, -1) translate(-394.000000, -400.000000) "></path>
+                    <path d="M413,800 C438.695801,702.185757 501.399841,640.544533 601.112118,615.076328 C700.824394,589.608123 777.120355,510.249347 830,377 L830,800 L413,800 Z" id="Path-3-Copy" fill="url(#linearGradient-3)"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

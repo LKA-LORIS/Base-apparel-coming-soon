@@ -1,5 +1,6 @@
 window.addEventListener('load',function(){
-    setTimeout(function() {
+    document.body.classList.remove('clean-transition');
+    setTimeout(function() {  
         document.querySelector('.loader').classList.add("loaded");
     }, 1500);
 
@@ -10,14 +11,14 @@ window.addEventListener('load',function(){
 
     /* Fonction de vérification avec regex */
     function validationEmail(email) {
-        var result = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+        const result = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
 
         return result.test(String(email).toLowerCase());
     }
 
     formulaire.addEventListener('submit', function(e) {
         e.preventDefault();
-        var emailValue = email.value;
+        const emailValue = email.value;
 
         /* Condition pour vérifier si l'email est valide */
         if(!validationEmail(emailValue)) {
@@ -25,9 +26,7 @@ window.addEventListener('load',function(){
             infosubmit.innerHTML = 'Please provide a valid email';
         } else {
             formulaire.classList.remove('error');
-            formulaire.classList.add('disable');
             email.value = '';
-            email.disabled = true;
             infosubmit.classList.add('success');
             infosubmit.innerHTML = 'Your email address has been taken into account. Thank you';
         }
