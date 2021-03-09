@@ -17,9 +17,7 @@
     transition: none !important
 }
 
-/**********/
 /* LOADER */
-/**********/
 
 .loader {
     display: flex;
@@ -61,7 +59,7 @@
 .loader__dots {
     display: flex;
     justify-content: center;
-    margin-top: 10px;
+    margin-top: 1rem;
     overflow: hidden;
     animation: .6s 1 both fadeOutDown;
     animation-delay: 1.2s;
@@ -81,9 +79,9 @@
 }
 
 .loader__dots span {
-    height: 8px;
-    width: 8px;
-    margin: 5px;
+    height: 0.8rem;
+    width: 0.8rem;
+    margin: 0.5rem;
     border-radius: 50%;
     background-color: #f09197;
     animation: fade 1s infinite;
@@ -121,6 +119,8 @@
     transition: all 0.8s ease-out;
 }
 
+/* */
+
 *,
 *::before,
 *::after {
@@ -135,6 +135,7 @@ html {
     -webkit-text-size-adjust: 100%;
     -webkit-font-smoothing: subpixel-antialiased;
     -moz-osx-font-smoothing: auto;
+    font-size: 62.5%;
     overflow-wrap: break-word;
     overflow: hidden;
 }
@@ -144,6 +145,7 @@ body {
     width: 100%;
     margin: 0 auto;
     padding: 0;
+    font-size: 1.6rem;
     font-weight: 400;
     font-family: 'Josefin Sans', sans-serif;
     background-color: var(--white);
@@ -197,12 +199,10 @@ main>section {
     display: none;
 }
 
-
-
 .inner {
     display: flex;
     flex-direction: column;
-    max-width: 506px;
+    max-width: 50.6rem;
     margin: 0 auto;
 }
 
@@ -212,11 +212,11 @@ header {
 
 .logo {
     display: block;
-    padding: 64px 32px;
+    padding: 6.4rem 3.2rem;
 }
 
 .intro {
-    padding: 32px;
+    padding: 3.2rem;
     flex-shrink: 0;
 }
 
@@ -235,7 +235,7 @@ p {
 }
 
 h1 {
-    font-size: 64px;
+    font-size: 6.4rem;
     font-weight: inherit;
     line-height: 1.077;
     text-transform: uppercase;
@@ -243,7 +243,7 @@ h1 {
 
 span {
     font-weight: 300;
-    letter-spacing: 17px;
+    letter-spacing: 1.7rem;
 }
 
 span:not(:first-child) {
@@ -253,24 +253,24 @@ span:not(:first-child) {
 
 p {
     line-height: 1.75;
-    margin: 32px 0 40px 0;
+    margin: 3.2rem 0 4rem 0;
 }
 
 form {
     position: relative;
     display: flex;
-    margin-bottom: 10px;
+    margin-bottom: 1rem;
 }
 
 input {
-    height: 56px;
+    height: 5.6rem;
     width: 100%;
-    padding: 18px 142px 18px 32px;
+    padding: 1.8rem 14.2rem 1.8rem 3.2rem;
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 16px;
+    font-size: 1.6rem;
     font-weight: 400;
-    border: 1px solid rgba(206, 152, 152, 0.50);
-    border-radius: 60px;
+    border: 0.1rem solid rgba(206, 152, 152, 0.50);
+    border-radius: 6rem;
     background-color: transparent;
     outline: none;
     overflow: hidden;
@@ -295,8 +295,8 @@ input:-moz-placeholder {
 form .icon-error {
     display: none;
     position: absolute;
-    top: calc(50% - 12px);
-    right: 110px;
+    top: calc(50% - 1.2rem);
+    right: 11rem;
 }
 
 form.error .icon-error {
@@ -304,7 +304,7 @@ form.error .icon-error {
 }
 
 form.error input {
-    border: 2px solid #f96464;
+    border: 0.2rem solid #f96464;
 }
 
 button {
@@ -313,12 +313,12 @@ button {
     right: 0;
     bottom: 0;
     height: 100%;
-    width: 100px;
+    width: 10rem;
     padding: 0;
     border: 0;
-    border-radius: 60px;
+    border-radius: 6rem;
     background: var(--degraded);
-    box-shadow: 0 15px 20px 0 rgba(198, 110, 110, 0.25);
+    box-shadow: 0 1.5rem 2rem 0 rgba(198, 110, 110, 0.25);
     outline: none;
     overflow: hidden;
     z-index: 9;
@@ -338,10 +338,10 @@ button:hover:before {
 }
 
 small {
-    display:block;
-    font-size: 13px;
+    display: block;
+    font-size: 1.3rem;
     color: #f96464;
-    margin-left: 30px;
+    margin-left: 3rem;
 }
 
 small.success {
@@ -352,7 +352,7 @@ small.success {
 
 .hero {
     min-height: 100vh;
-    max-width: 610px;
+    max-width: 61rem;
     width: 100%;
     flex-shrink: 0;
 }
@@ -373,7 +373,7 @@ small.success {
 
 @media screen and (max-width: 1200px) {
     .hero {
-        max-width: 400px;
+        max-width: 40rem;
     }
 }
 
@@ -393,21 +393,21 @@ small.success {
     }
 
     .logo {
-        padding: 32px;
+        padding: 3.2rem;
     }
 
     .intro {
         margin: 0;
-        padding: 64px 32px;
+        padding: 6.4rem 3.2rem;
     }
 
     h1 {
-        font-size: 40px;
+        font-size: 4rem;
     }
 
     p {
-        font-size: 14px;
-        margin: 16px 0 32px 0;
+        font-size: 1.4rem;
+        margin: 1.6rem 0 3.2rem 0;
     }
 
     h1,
@@ -423,7 +423,7 @@ small.success {
         display: flex;
         flex-shrink: 0;
         height: 100%;
-        max-height: 250px;
+        max-height: 25rem;
     }
 
     .content .background {
@@ -443,20 +443,20 @@ small.success {
     }
 
     input {
-        height: 48px;
-        font-size: 14px;
-        padding: 10px 110px 10px 24px;
+        height: 4.8rem;
+        font-size: 1.4rem;
+        padding: 1rem 11rem 1rem 2.4rem;
     }
 
     form .icon-error {
-        right: 72px;
+        right: 7.2rem;
     }
 
     button {
-        width: 64px;
+        width: 6.4rem;
     }
 
     small {
-        margin-left: 24px;
+        margin-left: 2.4rem;
     }
 }
